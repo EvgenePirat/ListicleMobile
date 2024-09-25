@@ -1,12 +1,5 @@
 export const products = [
     {
-        id: 1,
-        title: 'Loft Style Chair',
-        image: 'https://grandrapidschair.com/wp-content/uploads/2016/01/250_Brady_Graphite_Honey-1.jpg',
-        category: 1,
-        price: '$ 20.00'
-    },
-    {
         id: 2,
         title: 'Wood Mini Table',
         image: 'https://ii1.pepperfry.com/media/catalog/product/f/o/800x880/foldable-table-in-natural-colour-by-clasicraft-foldable-table-in-natural-colour-by-clasicraft-ahmtub.jpg',

@@ -19,6 +19,9 @@ export const styles = StyleSheet.create({
     },
     space:{
         width: 24
+    },
+    mainContainer:{
+        paddingHorizontal: 24
     }
     
 })

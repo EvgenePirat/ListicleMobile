@@ -2,12 +2,13 @@ import React from 'react';
 import { ScrollView, Text } from 'react-native';
 import { styles } from './styles';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import Header from '../../../components/Header';
  
 const Home = () => {
     return (
         <SafeAreaView>
             <ScrollView style={styles.container}>
-                <Text>Home</Text>
+                <Header showSearch={true} title='Find All You Need' />
             </ScrollView>
         </SafeAreaView>
     )

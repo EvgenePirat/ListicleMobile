@@ -11,6 +11,7 @@ import { colors } from './src/utils/color';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Image } from "react-native";
+import ProductDetails from './src/screens/app/ProductDetails';
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -68,6 +69,7 @@ function App() {
             {isSignedIn ? (
               <>
                 <Stack.Screen name="Tabs" component={Tabs} options={{ headerShown: false}} />
+                <Stack.Screen name="ProductDetails" component={ProductDetails} options={{ headerShown: false}} />
               </>
             ) : (
               <>      
